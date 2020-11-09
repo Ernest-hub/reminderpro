@@ -2,7 +2,14 @@
 	padding-top: 20px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;;
+	align-items: center;
+	background-image: url(https://lh3.googleusercontent.com/proxy/hRBD75qc_kZhOLEBH4ix2pP-mjc1cqF1vgv6Vwjenh3iFTidpEoyjfPA5Zc1NMIRTWKkyPnOqLtZg1_7Ivm6WDpsfhm2UQei8nwQfeD3vXK50ApAKF8UD-pQlJqF2g1glTTSoM2kCrGqRsiNqtm6UNoE1r41gQ_Hj7cHr_XKfodEwA);
+	background-repeat: no-repeat;
+	max-width: 50em;
+	width: 35em;
+	height: 35em;
+	max-height: 100em;
+	align-items: center;
 }
 
 .title {
