@@ -50,10 +50,12 @@ class App extends Component {
 
 	render() {
 		return(
-			<div className="App">
+
+			<div className="App"> 
+				<button>Reminder</button> <hr />
 				<div className="title">
 					Reminder-Pro
-				</div>
+				</div> 
 				<div className="form-inline reminder-form">
 					<div className="form-group">
 						<input className="form-control" placeholder="I have to..."
@@ -76,7 +78,15 @@ class App extends Component {
 				onClick={() => this.props.clearReminders()}
 				>
 				 Clear Reminders
-				</div>
+				</div> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+
+				<footer className="footer-class">
+					<p>Author: Ernest Korgah <br />
+  								<a href="mailto: www.pro@ich.com">www.who@ich.com</a>
+  					</p>
+					
+
+				</footer> 
 			</div>
 		)
 	}
